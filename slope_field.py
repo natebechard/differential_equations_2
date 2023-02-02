@@ -5,6 +5,9 @@ import math
 
 def slope(t, y):
     return  y*np.exp(-t/3) - 2*y**2
+#def slope(t, y):
+#    return 4 - 6*t - 2*y
+
 def linear(t1, y1, slope, domain):
     y_val = y1 + (slope)*(domain-t1)
     return y_val
